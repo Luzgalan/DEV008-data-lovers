@@ -169,6 +169,7 @@ document.getElementById("promedioPokemones").addEventListener("click", function 
 
 /* ------------------ Ordenamiento ascendente y descendente ----------------- */
 document.getElementById("slcOrdenar").addEventListener("change", function (event) {
+  console.log(event)
   const tipoOrdenamiento = event.target.value;
   const pokemonOrdenados = ordenarPokemon(tipoOrdenamiento, pokemones);
   crearPaginacionInicial(pokemonOrdenados);

@@ -22,15 +22,9 @@ export const ordenarPokemon = (tipoOrdenamiento, arrayPokemones) => {
   } else {
     return arrayPokemones.sort((pokemon1, pokemon2) => {
       if (pokemon1.name > pokemon2.name) {
-        console.log(pokemon1.name, '>', pokemon2.name);
-        console.log('opk1');
-
         return -1; //pokemon 1 va primero
       }
       if (pokemon1.name < pokemon2.name) {
-        console.log(pokemon1.name, '>', pokemon2.name);
-
-        console.log('opk2');
         return 1;//pokemon 2 primero
       }
       return 0;
@@ -41,7 +35,6 @@ export const ordenarPokemon = (tipoOrdenamiento, arrayPokemones) => {
 /* ------------------- Obtiene el total y tipos de pokemon ------------------ */
 export const contarTipoPokemon = () => {
   const arrayTipoPokemon = [];
-
   data.pokemon.forEach((pokemon) => {
     pokemon.type.forEach((type) => {
       const posicion = arrayTipoPokemon.findIndex((item) => item.tipoPokemon === type);

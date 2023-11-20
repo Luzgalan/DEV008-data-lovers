@@ -5,8 +5,8 @@
 * [1. Definición del producto.](#1-definición-del-producto)
 * [2. Objetivos del proyecto.](#2-objetivos-del-proyecto)
 * [3. Historias de usuario.](#4-historias-de-usuario)
-* [4. Prototipo de baja fidelidad.](#6-prototipo-de-baja-fidelidad)
-* [5. Prototipo de alta fidelidad.](#5-prototipo-de-alta-fidelidad)
+* [4. Prototipo de alta fidelidad.](#5-prototipo-de-alta-fidelidad)
+* [5. Prototipo de baja fidelidad.](#6-prototipo-de-baja-fidelidad)
 * [6. Objetivos de aprendizaje.](#7-objetivos-de-aprendizaje)
 * [7. Links de ayuda.](#8-links-de-ayuda)
 * [8. Link del proyecto.](#9-link-del-proyecto)
@@ -116,12 +116,7 @@ Desarrollar una pagina web que permite visualizar la data, ordenar (ascendente y
   1.	Una vez terminado la codificación se subirá los cambios en la rama develop.
   2.	La colaboradora podrá descargar los cambios en su local.
 
-
-## 4. Prototipo de baja fidelidad
-En  la siguiente imagen se podrá observar nuestro boceto del cual fue el punto partida para realizar el prototipo de alta fidelidad en figma. Los cambios fueron surgiendo conforme a las necesidades que se hiban presentando.
-![Image text](/src/icons/boceto1.jpg)
-
-## 5. Prototipo de alta fidelidad
+## 4. Prototipo de alta fidelidad
 
 Decidimos utilizar colores basados en el logo oficial de Pokémon para que amenizara la experiencia de usuario, el funcionamiento es mostrar una tabla de pokemones que permita realizar búsquedas simples y poder consultar los datos e imagen del pokémon.
 
@@ -136,6 +131,12 @@ Decidimos utilizar colores basados en el logo oficial de Pokémon para que ameni
 ### Link de FIGMA
 
 * [Link a FIGMA del proyecto](https://www.figma.com/file/IwIB5IsbdV69MQzJJaxM8K/DATALOVERS?type=design&node-id=1%3A2&t=cIVfROvni0Mu4kt9-1)
+
+
+## 5. Prototipo de baja fidelidad
+En  la siguiente imagen se podrá observar nuestro boceto del cual fue el punto partida para realizar el prototipo de alta fidelidad en figma. Los cambios fueron surgiendo conforme a las necesidades que se hiban presentando.
+![Image text](/src/icons/boceto1.jpg)
+
 
 
 ## 6. Objetivos de aprendizaje
@@ -239,24 +240,4 @@ Se utilizo en lenguaje de desarrollo en java scritp vainilla para desarrollar la
 
 * [Link del proyecto]()
 
-### Checklist
-
-* [ ] Usa VanillaJS.
-* [ ] Pasa linter (`npm run pretest`)
-* [ ] Pasa tests (`npm test`)
-* [ ] Pruebas unitarias cubren un mínimo del 70% de statements, functions y
-  lines y branches.
-* [ ] Incluye _Definición del producto_ clara e informativa en `README.md`.
-* [ ] Incluye historias de usuario en `README.md`.
-* [ ] Incluye _sketch_ de la solución (prototipo de baja fidelidad) en
-  `README.md`.
-* [ ] Incluye _Diseño de la Interfaz de Usuario_ (prototipo de alta fidelidad)
-  en `README.md`.
-* [ ] Incluye link a Zeplin en `README.md`.
-* [ ] Incluye el listado de problemas que detectaste a través de tests de
-  usabilidad en el `README.md`.
-* [ ] UI: Muestra lista y/o tabla con datos y/o indicadores.
-* [ ] UI: Permite ordenar data por uno o más campos (asc y desc).
-* [ ] UI: Permite filtrar data en base a una condición.
-* [ ] UI: Es _responsive_.
 
